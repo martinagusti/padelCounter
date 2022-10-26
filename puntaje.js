@@ -29,13 +29,13 @@ function agregar(){
       if((tiebrake == 7 & tiebrake2 < 6) || (tiebrake > 7 & tiebrake > (tiebrake2 + 1))){
          games ++
          sets ++
-         if(sets == 1){
+         if(sets + sets2 == 1){
             set1.innerText = set1.innerText + " " + games + " - " + games2
          }
-         if(sets == 2){
+         if(sets + sets2 == 2 ){
             set2.innerText = set2.innerText  + " "+ games + " - " + games2
          }
-         if(sets == 3){
+         if(sets + sets2 == 3 ){
             set3.innerText = set3.innerText  + " "+ games + " - " + games2
          }
 
@@ -82,13 +82,13 @@ function agregar(){
       if(games == 6 & games2 < 5){
         sets ++
 
-        if(sets == 1){
+        if(sets + sets2 == 1){
          set1.innerText = set1.innerText  + " "+ games + " - " + games2
       }
-      if(sets == 2){
+      if(sets + sets2 == 2){
          set2.innerText = set2.innerText  + " "+ games + " - " + games2
       }
-      if(sets == 3){
+      if(sets + sets2 == 3){
          set3.innerText = set3.innerText  + " "+ games + " - " + games2
       }
 
@@ -101,13 +101,13 @@ function agregar(){
       if(games == 7 & games2 == 5){
          sets ++
 
-         if(sets == 1){
+         if(sets + sets2  == 1){
             set1.innerText = set1.innerText + " " + games + " - " + games2
          }
-         if(sets == 2){
+         if(sets + sets2 == 2){
             set2.innerText = set2.innerText  + " "+ games + " - " + games2
          }
-         if(sets == 3){
+         if(sets + sets2 == 3){
             set3.innerText = set3.innerText  + " "+ games + " - " + games2
          }
 
@@ -167,13 +167,13 @@ function restar(){
             games2 ++
             sets2 ++
 
-            if(sets2 == 1){
+            if(sets2 + sets == 1){
                set1.innerText = set1.innerText + " " + games + " - " + games2
             }
-            if(sets2 == 2){
+            if(sets2 + sets == 2){
                set2.innerText = set2.innerText  + " "+ games + " - " + games2
             }
-            if(sets2 == 3){
+            if(sets2 + sets == 3){
                set3.innerText = set3.innerText  + " "+ games + " - " + games2
             }
 
@@ -217,13 +217,13 @@ function restar(){
     if(games2 == 6 & games < 5){
       sets2 ++
 
-      if(sets2 == 1){
+      if(sets2 + sets == 1){
          set1.innerText = set1.innerText + " " + games + " - " + games2
       }
-      if(sets2 == 2){
+      if(sets2 + sets == 2){
          set2.innerText = set2.innerText  + " "+ games + " - " + games2
       }
-      if(sets2 == 3){
+      if(sets2 + sets == 3){
          set3.innerText = set3.innerText  + " "+ games + " - " + games2
       }
 
@@ -234,14 +234,14 @@ function restar(){
     }
     if(games2 == 7 & games == 5){
       sets2 ++
-      
-      if(sets2 == 1){
+
+      if(sets2 + sets == 1){
          set1.innerText = set1.innerText + " " + games + " - " + games2
       }
-      if(sets2 == 2){
+      if(sets2 + sets == 2){
          set2.innerText = set2.innerText  + " "+ games + " - " + games2
       }
-      if(sets2 == 3){
+      if(sets2 + sets == 3){
          set3.innerText = set3.innerText  + " "+ games + " - " + games2
       }
 
