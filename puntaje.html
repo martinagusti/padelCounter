@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puntaje</title>
+    <link rel="stylesheet" href="puntaje.css?v2.1">
+</head>
+<body>
+   
+    <h1>Partida de Padel</h1>
+
+    <a href="#modal-1">Seleccionar Jugadores</a><br><br>
+
+    <div class="puntaje_container">
+        <img src="pelota.png" alt="" id="pelota1"><button class="btn_nombre" id="pareja1">JUG/JUG</button><button class="btn_final" id="btn_fin1">0</button><button class="btn_final" id="btn_fin2">0</button><button class="btn_final"  id="btn_fin3">0</button><button class="btn_finalPuntos"  id="btn_finPuntos1">0</button><br>
+        <img src="pelota.png" alt="" id="pelota2"><button class="btn_nombre" id="pareja2">JUG/JUG</button><button class="btn_final" id="btn_fin11">0</button><button class="btn_final" id="btn_fin22">0</button><button class="btn_final"  id="btn_fin33">0</button><button class="btn_finalPuntos" id="btn_finPuntos2">0</button><br><br>
+   
+       </div>
+
+    <div class="container">
+
+        <button onClick="restar()" id="btn_restar" class="btn_restar">Restar</button>
+        <label for="" id="lbl_agregar" class="lbl_puntos">0</label>
+        
+        <button onClick="agregar()" id="btn_agregar" class="btn_agregar">Agregar</button><br><br>
+        <button onClick="restar2()" id="btn_agregar2" class="btn_restar">Restar</button>
+        <label for="" id="lbl_agregar2" class="lbl_puntos">0</label>
+        <button onClick="agregar2()" id="btn_restar2" class="btn_agregar">Agregar</button><br><br>
+        <audio src="audiopelota.mp3" id="audiopelota"></audio>
+        <audio src="error.mp3" id="error"></audio>
+
+    </div>
+    
+    <label for="" id="games" class="iguales">0</label><label for="">-</label><label for="" id="games2">0</label><label for=""> GAMES</label> <br><br>
+    <label for="" id="sets" class="iguales">0</label><label for="">-</label><label for="" id="sets2">0</label><label for=""> SETS</label><br><br>
+
+    
+
+    <article id ="modal-1" class="modal">
+        <div class="modal-container">
+            <a href="#cerrar" class="modal-close" onClick="jugadores()">OK</a>
+            <h2>Introducir 3 letras por apellido!!! (EJ: AAA/BBB)</h2>
+            
+            <div class="input-radio">
+               <label for="" class="lbl_parejas" >Pareja A</label><input type="text" id="parejaA" value="" class="input"><br>
+               <label for="" class="lbl_parejas">Pareja B</label><input type="text" id="parejaB" value="" class="input"><br><br>
+               
+                
+                     
+            </div>
+        </div> 
+    </article>
+
+    
+    
+    
+    
+
+    <script src="puntaje.js"></script>
+</body>
+</html>

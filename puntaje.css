@@ -1,0 +1,175 @@
+h1{
+color: #fff;
+font-size: 45px;
+
+
+}
+
+.btn_agregar{
+    width: 100px;
+    height: 50px;
+   background-color: green;
+   color: white;
+   font-size: 12px;
+   border: 1px solid;
+   margin: 10px;
+   border-radius: 10px;
+   font-size: medium;
+   cursor: pointer;
+}
+
+.btn_restar{
+    width: 100px;
+    height: 50px;
+   background-color: red;
+   color: white;
+   font-size: 12px;
+   border: 1px solid;
+   margin: 10px;
+   border-radius: 10px;
+   font-size: medium;
+   cursor: pointer;
+}
+body{
+   
+    text-align: center;
+    background-color: rgb(20, 7, 62);
+}
+label{
+    
+    width: 80px;
+    height: 30px;
+    color: aliceblue;
+    font-size: 0px;
+}
+
+.container{
+    text-align: center;
+}
+.label_sets{
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+}
+.btn_final{
+    margin: 1px solid white;
+    width: 40px;
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+}
+   
+.btn_nombre{
+    width: 165px;
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+   
+}
+.btn_finalPuntos{
+    margin: 1px solid;
+    
+    width: 50px;
+    color: blue;
+    background-color: lightblue;
+    font-size: 30px;
+
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+#pelota2{
+    opacity: 0;
+}
+.modal:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right:0;
+    z-index: 997;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0008;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 500ms ease-in-out;
+    
+}
+.modal-container{
+    position: relative;
+    border: thick double #d00;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #fff;
+    width: 55%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    overflow: auto;
+    background-color: rgb(19, 9, 59);
+
+}
+.modal-close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: green;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: background-color 300ms linear, transform 300ms ease-in-out;
+}
+.input-radio{
+    
+    border-radius: 5px;
+    margin-left: 1px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.lbl_parejas{
+    
+    margin-right: 5px;
+    color: rgb(241, 237, 246);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.input{
+    padding-top: 5px;
+    width: 130px;
+    height: 30px;
+    margin: 1px blue;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+
+}
+h2{
+    color: white;
+}
+a{
+    color: white;
+    font-size: large;
+    text-decoration: underline;
+}
+
+
+
+
+
